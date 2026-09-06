@@ -1,0 +1,13 @@
+# 密钥：绝不入库
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+
+# 沙箱运行产物（保留目录结构，不保留内容）
+sandbox/*
+!sandbox/.gitkeep
